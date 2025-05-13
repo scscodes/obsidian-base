@@ -1,0 +1,74 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Resources/Note_Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "Resources/Scripts",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Notes/Medical/Appointments",
+      "template": "Resources/Note_Templates/Medical_Appointment.md"
+    },
+    {
+      "folder": "Notes/Profiles",
+      "template": "Resources/Note_Templates/Profile_Note.md"
+    },
+    {
+      "folder": "Notes/Assets",
+      "template": "Resources/Note_Templates/Asset_Note.md"
+    },
+    {
+      "folder": "Notes/Hobbies",
+      "template": "Resources/Note_Templates/Hobby_Note.md"
+    },
+    {
+      "folder": "Notes/Finance",
+      "template": "Resources/Note_Templates/Finance_Note.md"
+    },
+    {
+      "folder": "Notes/Misc",
+      "template": "Resources/Note_Templates/Misc_Note.md"
+    },
+    {
+      "folder": "Journals/2025/Daily",
+      "template": "Resources/Note_Templates/Journals/Daily.md"
+    },
+    {
+      "folder": "Journals/2025/Weekly",
+      "template": "Resources/Note_Templates/Journals/Weekly.md"
+    },
+    {
+      "folder": "Journals/2025/Monthly",
+      "template": "Resources/Note_Templates/Journals/Monthly.md"
+    },
+    {
+      "folder": "Journals/2025/Quarterly",
+      "template": "Resources/Note_Templates/Journals/Quarterly.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

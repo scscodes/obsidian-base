@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "9ef918a66eda6571",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f216adfea393e6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfa844b061769b22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/Note_Templates/Journals/Daily.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily"
+            }
+          },
+          {
+            "id": "cb42071dc2f597f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/References/Reference_Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reference_Note"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fce67b7b740f50a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "daa7a4b67280897e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbb8933a19ee2282",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "db2c355c7fe6282e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6c601633f935f60f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7cea630fb87de2a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4d65340558d3fa1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28b8fd6728a42e4d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Journals/2025/05/Untitled 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled 2"
+            }
+          },
+          {
+            "id": "9085e7409f454cbb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Journals/2025/05/Untitled 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled 2"
+            }
+          },
+          {
+            "id": "68907bdc9374c88c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "357ff125b8d02042",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Resources/References/Reference_Note.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Reference_Note"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "quickadd:QuickAdd": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "cb42071dc2f597f0",
+  "lastOpenFiles": [
+    "Resources/References/Templater_Syntax_Guide.md",
+    "Resources/References/Reference_Note.md",
+    "Resources/Note_Templates/Misc_Note.md",
+    "Resources/Reference_Note.md",
+    "Resources/Note_Templates/Profile_Note.md",
+    "Resources/Note_Templates/Reference_Note.md",
+    "Resources/Note_Templates/Appointment_Note.md",
+    "Notes/Assets/Appliances/Mock Asset.md",
+    "Resources/Note_Templates/Asset_Note.md",
+    "Resources/Note_Templates/Hobby_Note.md",
+    "Resources/Note_Templates/Journals/Quarterly.md",
+    "Resources/Note_Templates/Journals/Weekly.md",
+    "Resources/Note_Templates/Journals/Daily.md",
+    "Resources/Note_Templates/Finance_Note.md",
+    "Journals/2025/Daily/2025-05-12.md",
+    "Journals/2025/Daily/2025-05-13.md",
+    "Journals/2025/Daily/2025-05-09.md",
+    "Journals/2025/Weekly/Untitled.md",
+    "Journals/2025/Daily/Untitled 1.md",
+    "Journals/2025/Daily/2025-05-11.md",
+    "Journals/2025/Daily/Untitled.md",
+    "Journals/2025/Daily/2025-05-10.md",
+    "Journals/2025/Daily/2025-05-08.md",
+    "Resources/Section_Templates/period_variants/daily.md",
+    "Resources/Scripts/universal_backmatter.js",
+    "Resources/Section_Templates/base_backmatter.md",
+    "Resources/Note_Templates/Journals/Dashboard.md",
+    "Journals/2025/Yearly",
+    "Journals/2025/Daily",
+    "Journals/2025/Quarterly",
+    "Journals/2025/Monthly",
+    "Journals/2025/Weekly",
+    "Resources/Note_Templates/Journals",
+    "Resources/Scripts/universal_frontmatter.js",
+    "Resources/Scripts/note_metadata.js",
+    "Resources/Scripts/frontmatter.js",
+    "Untitled.canvas"
+  ]
+}

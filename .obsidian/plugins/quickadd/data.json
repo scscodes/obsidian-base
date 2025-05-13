@@ -1,0 +1,321 @@
+{
+  "choices": [
+    {
+      "id": "c2e7e7d4-31d0-46a3-8f74-448211b032af",
+      "name": "Create Daily Note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "3957907a-ac38-494b-bba4-35de084a3e47"
+    },
+    {
+      "id": "4f339163-1c9b-493a-828e-6f2cda67b89a",
+      "name": "Create Weekly Note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "624bce7f-8d7c-485c-b617-d4cc974a0084"
+    },
+    {
+      "id": "21ab61ae-5212-42c6-9e1d-19a55f81a478",
+      "name": "Create Monthly Note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "20e0082e-248a-4eab-85dc-83c1cc03d292"
+    },
+    {
+      "id": "16bb7a54-1f0b-4bd3-95a6-0aafe2e9d597",
+      "name": "Create Quarterly Note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "758e1367-f8fb-41e1-a78d-d25ee940dd0b"
+    },
+    {
+      "id": "109ca1ea-1099-4ca8-a75b-2a8e3ec8c489",
+      "name": "Create Yearly Note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "6e7cc27d-dd47-4a82-8fcf-dafd2edabf79"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Create Daily Macro",
+      "id": "3957907a-ac38-494b-bba4-35de084a3e47",
+      "commands": [
+        {
+          "name": "Daily Template",
+          "type": "NestedChoice",
+          "id": "5b3ff40a-d77f-470d-9135-799c1e26291e",
+          "choice": {
+            "id": "b6e3d089-f4bc-4081-ac2e-ff10263fdbde",
+            "name": "Daily Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Resources/Note_Templates/Journals/Daily.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:YYYY-MM-DD}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Journals/{{DATE:YYYY}}/Daily"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Weekly Macro",
+      "id": "624bce7f-8d7c-485c-b617-d4cc974a0084",
+      "commands": [
+        {
+          "name": "Weekly Template Choice",
+          "type": "NestedChoice",
+          "id": "4d534896-8222-42a4-8bd4-aef4b0979b7b",
+          "choice": {
+            "id": "5efb96a5-c599-4c7a-a0c5-15417a56086d",
+            "name": "Weekly Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Resources/Note_Templates/Journals/Weekly.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:gggg-[W]WW}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Journals/{{DATE:YYYY}}/Weekly"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Monthly Macro",
+      "id": "20e0082e-248a-4eab-85dc-83c1cc03d292",
+      "commands": [
+        {
+          "name": "Monthly Template Choice",
+          "type": "NestedChoice",
+          "id": "7158b014-443a-4acb-a4c1-91a025263a90",
+          "choice": {
+            "id": "6df9f69f-ef19-46f9-842b-6f5ab0963250",
+            "name": "Monthly Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Resources/Note_Templates/Journals/Monthly.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:YYYY-MM}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Journals/{{DATE:YYYY}}/Monthly"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Quarterly Macro",
+      "id": "758e1367-f8fb-41e1-a78d-d25ee940dd0b",
+      "commands": [
+        {
+          "name": "Quarterly Template Choice",
+          "type": "NestedChoice",
+          "id": "07904865-8234-404e-b8b5-75172f6b3a19",
+          "choice": {
+            "id": "845d0674-1eff-4f74-90fd-e830e6cb80d1",
+            "name": "Quarterly Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Resources/Note_Templates/Journals/Quarterly.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:YYYY-[Q]Q}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Journals/{{DATE:YYYY}}/Quarterly"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Yearly Macro",
+      "id": "6e7cc27d-dd47-4a82-8fcf-dafd2edabf79",
+      "commands": [
+        {
+          "name": "Yearly Template Choice",
+          "type": "NestedChoice",
+          "id": "69da262d-f8bd-4bcc-a86b-5ccbfe5a7ede",
+          "choice": {
+            "id": "93ac9a7f-5880-4b06-b8d5-4b933aab7360",
+            "name": "Yearly Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Resources/Note_Templates/Journals/Yearly.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:YYYY}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Journals/{{DATE:YYYY}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "Resources/Note_Templates",
+  "announceUpdates": false,
+  "version": "1.13.2",
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}
