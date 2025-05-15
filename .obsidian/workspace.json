@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/References/Reference_Note.md",
+                "file": "Resources/References/Obsidian Hybrid Template Flow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reference_Note"
+              "title": "Obsidian Hybrid Template Flow"
             }
           }
         ],
@@ -157,13 +157,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/References/Reference_Note.md",
+                "file": "Resources/References/Obsidian Hybrid Template Flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reference_Note"
+              "title": "Outline of Obsidian Hybrid Template Flow"
+            }
+          },
+          {
+            "id": "9f84cd8a2f548183",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -181,47 +195,48 @@
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "templates:Insert template": false
     }
   },
   "active": "cb42071dc2f597f0",
   "lastOpenFiles": [
-    "Notes/Medical/Index.md",
-    "Notes/Index.md",
-    "Notes/Misc/Index.md",
-    "Notes/Profiles/Index.md",
-    "Notes/Finance/Index.md",
-    "Resources/References/Templater_Syntax_Guide.md",
-    "Resources/References/Reference_Note.md",
-    "Resources/Note_Templates/Misc_Note.md",
-    "Resources/Reference_Note.md",
-    "Resources/Note_Templates/Profile_Note.md",
-    "Resources/Note_Templates/Reference_Note.md",
-    "Resources/Note_Templates/Appointment_Note.md",
-    "Notes/Assets/Appliances/Mock Asset.md",
-    "Resources/Note_Templates/Asset_Note.md",
-    "Resources/Note_Templates/Hobby_Note.md",
-    "Resources/Note_Templates/Journals/Quarterly.md",
-    "Resources/Note_Templates/Journals/Weekly.md",
-    "Resources/Note_Templates/Journals/Daily.md",
-    "Resources/Note_Templates/Finance_Note.md",
     "Journals/2025/Daily/2025-05-12.md",
+    "Resources/References/Obsidian Hybrid Template Flow.md",
+    "Resources/Scripts/auto_template.js",
+    "Journals/2025/Daily/2025-05-14.md",
     "Journals/2025/Daily/2025-05-13.md",
-    "Journals/2025/Daily/2025-05-09.md",
-    "Journals/2025/Weekly/Untitled.md",
-    "Journals/2025/Daily/Untitled 1.md",
-    "Journals/2025/Daily/2025-05-11.md",
-    "Journals/2025/Daily/Untitled.md",
+    "Notes/Profiles/Contacts.md",
+    "Notes/Profiles/Index.md",
+    "Notes/Profiles/Family/John Smith.md",
+    "Notes/Profiles/Colleagues/README.md",
+    "Notes/Professional/Meetings/2025-05-20-Project-Kickoff.md",
+    "Notes/Professional/Meetings/Untitled.md",
+    "Resources/Note_Templates/Appointment_Note.md",
+    "Notes/Misc/Untitled.md",
+    "Notes/Misc/Index.md",
+    "Notes/Misc/README.md",
+    "Notes/Medical/General/README.md",
+    "Notes/Medical/Appointments/2025-05-15-Doctor-Visit.md",
+    "Notes/Hobbies/Index.md",
+    "Notes/Hobbies/Projects/Garden-Renovation.md",
+    "Notes/Hobbies/Projects/Untitled.md",
+    "Notes/Assets/Vehicles/Untitled.md",
+    "Notes/Assets/Index.md",
+    "Notes/Assets/Appliances/Mock Asset.md",
+    "Notes/Assets/Maintenance/2025-05-25-HVAC-Service.md",
+    "Resources/Note_Templates/Profile_Note.md",
+    "Notes/Profiles/Professional/Sarah-Johnson.md",
+    "Resources/Note_Templates/Reference_Note.md",
+    "Resources/Scripts/apply_template.js",
+    "Notes/Profiles/Professional",
+    "Notes/Hobbies/Projects",
+    "Notes/Professional/Projects",
+    "Notes/Finance/Payments",
+    "Notes/Assets/Maintenance",
+    "Notes/Professional/Meetings",
     "Resources/Scripts/universal_backmatter.js",
     "Journals/2025/Yearly",
-    "Journals/2025/Daily",
-    "Journals/2025/Quarterly",
-    "Journals/2025/Monthly",
-    "Journals/2025/Weekly",
-    "Resources/Note_Templates/Journals",
-    "Resources/Scripts/universal_frontmatter.js",
-    "Resources/Scripts/note_metadata.js",
-    "Resources/Scripts/frontmatter.js",
     "Untitled.canvas"
   ]
 }

@@ -9,7 +9,7 @@
 - **Purpose**: 
 
 ## When & Where
-- **Date**: <% date %>
+- **Date**: 
 - **Time**: 
 - **Duration**: 
 - **Location**: 

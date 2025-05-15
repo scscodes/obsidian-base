@@ -6,7 +6,7 @@ TABLE
   time as Time,
   title as Event,
   file.folder as Location
-FROM "02_Notes"
+FROM "Notes"
 WHERE contains(tags, "appointment") 
   AND date = date(today)
 SORT time ASC
