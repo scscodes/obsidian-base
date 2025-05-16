@@ -72,7 +72,7 @@ Notes/Mobile/   → References/Templates/mobile_note.md
 
 ```yaml
 ---
-created: <% tp.date.now("YYYY-MM-DD") %>
+created: 2025-05-15
 class: mobile-unclassified
 source: mobile
 flags: [needs-classification]

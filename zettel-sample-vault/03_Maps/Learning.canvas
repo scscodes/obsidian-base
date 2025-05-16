@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"1","x":0,"y":0,"width":300,"height":100,"file":"02_Permanent/20240516 Working Memory in Programming.md"},
+		{"id":"2","x":400,"y":0,"width":300,"height":100,"file":"02_Permanent/20240516 Spaced Repetition.md"},
+		{"id":"3","x":800,"y":0,"width":300,"height":100,"file":"02_Permanent/20240516 Chunking Information.md"},
+		{"id":"4","x":400,"y":200,"width":300,"height":100,"file":"02_Permanent/20240516 Cognitive Load Theory.md"},
+		{"id":"5","x":400,"y":400,"width":300,"height":100,"file":"02_Permanent/20240516 Instructional Design and CLT.md"},
+		{"id":"6","x":0,"y":400,"width":300,"height":100,"file":"03_Maps/20240516 Learning Concepts Map.md"}
+	],
+	"edges":[
+		{"fromNode":"1","toNode":"2"},
+		{"fromNode":"1","toNode":"3"},
+		{"fromNode":"1","toNode":"4"},
+		{"fromNode":"4","toNode":"5"},
+		{"fromNode":"2","toNode":"5"},
+		{"fromNode":"3","toNode":"4"},
+		{"fromNode":"6","toNode":"1"},
+		{"fromNode":"6","toNode":"2"},
+		{"fromNode":"6","toNode":"3"},
+		{"fromNode":"6","toNode":"4"},
+		{"fromNode":"6","toNode":"5"}
+	]
+}

@@ -29,7 +29,17 @@
               "state": {
                 "file": "Resources/References/Obsidian Hybrid Template Flow.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Obsidian Hybrid Template Flow"
@@ -195,12 +205,14 @@
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "cb42071dc2f597f0",
   "lastOpenFiles": [
+    "script-sample-vault",
+    "New folder (2)",
     "Journals/2025/Daily/2025-05-12.md",
     "Resources/References/Obsidian Hybrid Template Flow.md",
     "Resources/Scripts/auto_template.js",
@@ -227,7 +239,6 @@
     "Notes/Assets/Maintenance/2025-05-25-HVAC-Service.md",
     "Resources/Note_Templates/Profile_Note.md",
     "Notes/Profiles/Professional/Sarah-Johnson.md",
-    "Resources/Note_Templates/Reference_Note.md",
     "Resources/Scripts/apply_template.js",
     "Notes/Profiles/Professional",
     "Notes/Hobbies/Projects",
@@ -236,7 +247,6 @@
     "Notes/Assets/Maintenance",
     "Notes/Professional/Meetings",
     "Resources/Scripts/universal_backmatter.js",
-    "Journals/2025/Yearly",
     "Untitled.canvas"
   ]
 }
